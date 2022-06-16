@@ -1,7 +1,6 @@
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
 import pandas as pd
-1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010
 # create a function to scrape team performance for multiple years
 def scrape_NBA_team_data(years = [2017, 2018]):
     
